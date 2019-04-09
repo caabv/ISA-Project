@@ -1,4 +1,4 @@
-function Invoke-PrivEsc {
+function Invoke-ISA {
 
 <#
 	.SYNOPSIS
@@ -18,7 +18,7 @@ function Invoke-PrivEsc {
 		Switch enables lookups that may last for several minutes.
 	
 	.EXAMPLE
-		Invoke-PrivEsc -Groups 'Users,Everyone,Authenticated Users' -Mode full -Extended
+		Invoke-ISA -Groups 'Users,Everyone,Authenticated Users' -Mode full -Extended
 #>
 
     [CmdletBinding()]
